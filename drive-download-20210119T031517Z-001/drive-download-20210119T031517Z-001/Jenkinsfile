@@ -2,7 +2,7 @@ pipeline {
   stages {
     stage(''){
       steps{
-        
+        git branch: 'main', url: 'git@github.com:ashishdubey123/student.git'
       }
     }
   }
